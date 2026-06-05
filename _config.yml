@@ -1,0 +1,28 @@
+title: Sok Tehu
+url: "https://tehusijarana.github.io"
+baseurl: ""
+permalink: pretty
+
+
+markdown: kramdown
+#ins_logo: "./bits-logo.png"
+
+tracking_id: #
+
+footer: yes
+footer_url: "https://github.com/karinatehusijarana"
+footer_text: "Sok Tehu by Karina Tehusijarana"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "/"
+ - name: "Gallery"
+   link: "/gallery/"
+ - name: "Contact"
+   link: "/contact/"
+
+future: true

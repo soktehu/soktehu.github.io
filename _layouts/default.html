@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, personal, photography, thoughts, {{ site.title }}, jekyll">
+    <meta name="author" content="Karina Tehusijarana">
+    
+    {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
+    
+    {% if page.description %}
+        {% assign desc = page.description %}
+    {% else %}
+        {% assign desc = "A personal space by Karina Tehusijarana. Random essays, thoughts, and a photo gallery." %}
+    {% endif %}
+    
+    {% assign url = site.url | append: site.baseurl | append: page.url %}
+    <meta name="description" content="{{ desc }}">
+    
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    
+    <!-- Facebook Open Graph -->
+    <meta property="og:description" content="{{ desc }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:url" content="{{ url }}">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ desc }}">
+    <meta name="twitter:url" content="{{ url }}">
+
+    <!-- Early Theme Detection Script to avoid flash of light-mode -->
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar container">
+            <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <ul id="navlist" class="alignable pull-right navbar-ul">
+                {% for x in site.nav %}
+                    <li class="alignable pull-left nav-list">
+                        <a href="{{ site.baseurl }}{{ x.link }}">{{ x.name }}</a>
+                        /
+                    </li>
+                {% endfor %}
+                <li class="alignable pull-left nav-list">
+                    <a href="#" id="theme-toggle" class="theme-toggle-link"></a>
+                </li>
+            </ul>
+        </div>
+        
+        <div style="clear:both"></div>
+        <hr>
+        
+        <div class="container content">
+            {{ content }}
+            {% if site.footer == true %}
+                <hr />
+                <p style="text-align: center; margin-bottom: 10px">
+                <a href="{{ site.footer_url }}" style="color: var(--secondary-text-color)"><small>{{ site.footer_text }}</small></a>
+                </p>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Theme Toggle Logic Script -->
+    <script>
+        const themeToggleLink = document.getElementById('theme-toggle');
+        
+        function updateToggleText(theme) {
+            themeToggleLink.textContent = theme === 'dark' ? '[light]' : '[dark]';
+        }
+
+        // Initial state
+        const currentTheme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+        updateToggleText(currentTheme);
+        
+        themeToggleLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+                updateToggleText('light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+                updateToggleText('dark');
+            }
+        });
+    </script>
+</body>
+</html>
+
+

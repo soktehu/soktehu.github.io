@@ -1,0 +1,42 @@
+/*
+ * Customization Variables
+ */
+
+:root {
+    --bg-color: #ffffff; /* Original researcher background */
+    --text-color: #000000; /* Original researcher text */
+    --accent-color: #FF0F00; /* Original researcher accent red */
+    --author-name-color: #272727; /* Original researcher author name */
+    --border-color: rgba(0, 0, 0, 0.1); /* Original hr border */
+    --hr-shadow: rgba(255, 255, 255, 0.3); /* Original hr shadow */
+    --blockquote-border: #333333; /* Original blockquote border */
+    --code-bg: #f8f8f8;
+    --table-border: #cccccc;
+    --card-shadow: rgba(0, 0, 0, 0.05);
+}
+
+:root.dark {
+    --bg-color: #121212; /* Clean dark mode background */
+    --text-color: #e0e0e0; /* Muted light text */
+    --accent-color: #ff453a; /* Accessible red for dark mode */
+    --author-name-color: #f5f5f5;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --hr-shadow: rgba(0, 0, 0, 0.3);
+    --blockquote-border: #888888;
+    --code-bg: #1e1e1e;
+    --table-border: #444444;
+    --card-shadow: rgba(0, 0, 0, 0.3);
+}
+
+$image-size: 85px;
+
+/*
+ * Build Variables, don't touch
+ */
+
+$max-width: 800px;
+$med-width: 680px;
+$small-width: 480px;
+
+
+
