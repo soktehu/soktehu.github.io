@@ -3,7 +3,12 @@ layout: post
 title: Pursuing the Write Stuff
 date: 2016-06-05 12:00:00 +0700
 description: Why the fountain pen market, an obsolete sector of a declining industry, is spurting.
+tags: [Essays]
 ---
+Notes: This was my master's project back in 2016. I half-heartedly pitched it to a couple of places but no one ever got back to me. 
+
+***
+
 Wind gusts of up to 40 miles per hour, sidewalks buried in over a foot of snow, closed roads, suspended bus lines, dire warnings from government officials. Such a scenario would stop most people from venturing outside on the weekend of January 22nd, 2016, but not a self-described fountain pen obsessive.
 
 Anni Lei, a 25-year-old graduate student at the University of Pennsylvania, trudged through what meteorologists called a “potentially historic blizzard” to get to the 2016 Philadelphia Pen Show.

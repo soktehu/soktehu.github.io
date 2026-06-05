@@ -38,6 +38,8 @@
     .profile-picture {
         height: $image-size;
         width: $image-size;
+        object-fit: cover;
+        object-position: 30% 50%;
         position: relative;
         margin: -10px 0 0 15px;
         float: right;

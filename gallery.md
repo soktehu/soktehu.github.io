@@ -5,7 +5,7 @@ title: Gallery
 
 <div class="gallery-intro">
     <h1>Gallery</h1>
-    <p>A collection of moments, shapes, and places captured along the way. Click any photo to see it in full view.</p>
+    <p>A collection of photos that I took, and liked. Click any photo to see it in full view.</p>
 </div>
 
 <div class="gallery-grid">

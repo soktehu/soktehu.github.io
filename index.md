@@ -3,14 +3,16 @@ layout: default
 title: About Me
 ---
 
-<img class="profile-picture" src="{{ site.baseurl }}/assets/images/profile.png" alt="Karina Tehusijarana">
+<img class="profile-picture" src="{{ site.baseurl }}/assets/images/profile.JPG" alt="Karina Tehusijarana">
 
 # Welcome to Sok Tehu
+
+Just a blog for all my bits and bobs.
 
 ---
 
 <section class="essay-section">
-    <h2>Recent Essays</h2>
+    <h2>Recent Posts</h2>
     
     {% if site.posts.size > 0 %}
         <ul class="essay-list">

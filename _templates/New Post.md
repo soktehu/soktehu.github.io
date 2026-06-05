@@ -1,3 +1,3 @@
 <%* const title = await tp.system.prompt("Post title"); const description = await tp.system.prompt("Short description (shown in previews/SEO)"); const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); const date = tp.date.now("YYYY-MM-DD"); await tp.file.rename(date + "-" + slug);
 
-tR += "---\n"; tR += "layout: post\n"; tR += "title: " + title + "\n"; tR += "date: " + date + " 12:00:00 +0700\n"; tR += "description: " + description + "\n"; tR += "---\n\n"; -%>
+tR += "---\n"; tR += "layout: post\n"; tR += "title: " + title + "\n"; tR += "date: " + date + " 12:00:00 +0700\n"; tR += "description: " + description + "\n"; tR += "tags: []\n"; tR += "---\n\n"; -%>

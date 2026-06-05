@@ -20,6 +20,8 @@ sass:
 nav:
  - name: "About"
    link: "/"
+ - name: "Posts"
+   link: "/posts/"
  - name: "Gallery"
    link: "/gallery/"
  - name: "Contact"

@@ -3,6 +3,7 @@ layout: post
 title: A Lesson in Message Discipline from a Market Security Guard
 date: 2017-11-20 12:00:00 +0700
 description: Safety, order, and comfort
+tags: [Essays]
 ---
 “As security guards, we’re concerned with three things: safety, order, and comfort,” said the head security guard of Palmerah Market between puffs of his cigarette. “I’m sure you can elaborate from there.”
 

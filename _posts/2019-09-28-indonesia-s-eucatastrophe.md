@@ -3,6 +3,7 @@ layout: post
 title: Indonesia’s Eucatastrophe
 date: 2019-09-28 12:00:00 +0700
 description: Optimism against all odds
+tags: [Essays]
 ---
 
 In his essay “On Fairy Stories,” J.R.R. Tolkien coined the word “eucatastrophe,” adding the Greek prefix _eu_ meaning “good” to the word “catastrophe” as used in literature, the denouement of a drama.

@@ -1,0 +1,15 @@
+# Gallery Helper Script
+add_photo.py
+add_post_photo.py
+
+# Jekyll outputs and cache
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+#Obsidian
+.obsidian
