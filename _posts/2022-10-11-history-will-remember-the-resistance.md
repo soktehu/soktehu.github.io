@@ -5,6 +5,8 @@ date: 2020-10-11 12:00:00 +0700
 description: Even if victory takes 100 years — or as in Galadriel’s case, more than 6,000 — the things that we do today will be a testament for posterity.
 tags: [Essays]
 ---
+![A man stands on top of the fence at the entrance of Indonesia's House of Representatives complex during a protest](<{{ site.baseurl }}/assets/images/posts/lawan.jpg>)
+
 The contradiction between predestination and free will is a philosophical concept that has always fascinated me. Billions of people believe that, whether through the laws of God or physics, the future is already written. And yet, they simultaneously believe — or at least act as if they do — that their choices matter and can have an impact on the world.
 
 There’s one line in The Lord of the Rings that has stuck with me because of how neatly it illustrates this contradiction. As she greets the Fellowship, Galadriel, speaking about her husband Celeborn, says,
