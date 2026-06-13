@@ -10,8 +10,8 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/karinatehusijarana"
-footer_text: "Sok Tehu by Karina Tehusijarana"
+footer_url: "https://github.com/lordleycester"
+footer_text: "Menulis adalah sebuah keberanian"
 
 sass:
     style: compressed

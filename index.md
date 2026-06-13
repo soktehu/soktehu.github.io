@@ -7,7 +7,7 @@ title: About Me
 
 # Welcome to Sok Tehu
 
-Just a blog for all my bits and bobs.
+Just a receptacle for all my bits and bobs.
 
 ---
 

@@ -218,12 +218,12 @@ hr {
     }
 }
 
-figure.post-figure {
+figure.post-figure, figure.post-video-figure {
     margin: 30px auto;
     text-align: center;
     max-width: 100%;
 
-    img {
+    img, video {
         max-width: 100%;
         height: auto;
         border: 1px solid var(--border-color);
@@ -232,7 +232,7 @@ figure.post-figure {
     }
 }
 
-figcaption.post-figcaption {
+figcaption.post-figcaption, figcaption.post-video-figcaption {
     font-size: 14px;
     font-style: italic;
     color: var(--text-color);
